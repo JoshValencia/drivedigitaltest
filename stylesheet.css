@@ -1,0 +1,633 @@
+@font-face {
+    font-family: "Brown LL";
+    src: url("assets/BrownLL-Regular.woff") format('woff');
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    height: 36px;
+    width: 100%;
+    background-color: #181800;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-bar:hover{
+    cursor: pointer;
+}
+
+.top-bar p{ 
+    color: #F3E6FF;
+    font-family: "Brown LL";
+    font-size: 12px;
+    letter-spacing: 0.43px;
+    text-align: center;
+}
+
+header {
+    height: 160px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.header-content {
+    height: 35px;
+    padding: 62px 48px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.h-content-sub-nav{
+    font-family: "Brown LL";
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    justify-self: flex-start;
+}
+
+.h-content-sub-nav a{
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+
+.h-content-sub-logo{
+    height: 35px;
+    width: 292.83px;
+    justify-self: center;
+}
+
+.h-content-sub-logo img{
+    height: 35px;
+    width: 292.83px;
+}
+
+.h-content-sub-basket{
+    justify-self: flex-end;
+}
+
+.h-content-sub-basket a {
+    color: #181800;
+    font-family: "Brown LL";
+    font-size: 20px;
+    letter-spacing: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#basket-logo{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+#hero-banner-container {
+    height: 900px;
+    width: 100%;
+    background-image: url("./assets/body-wash-collection.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-banner-content{
+    height: 273px;
+    width: 612px;
+    padding: 256px 737px 221px 91px;
+}
+
+.hero-banner-text {
+    margin-bottom: 44px;
+}
+
+.hero-banner-text h1{
+    color: #FFFFFF;
+    font-family: "Brown LL";
+    font-size: 50px;
+    letter-spacing: -1.74px;
+    margin-bottom: 20px;
+}
+
+.hero-banner-text p {
+  color: #FFFFFF;
+  font-family: "Brown LL";
+  font-size: 24px;
+  letter-spacing: 0.67px;
+}
+
+.hero-banner-content button {
+    box-sizing: border-box;
+    height: 57px;
+    width: 171px;
+    border: 2px solid #181800;
+    background-color: #181800;
+    color: #FFFFFF;
+    font-family: "Brown LL";
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.hero-banner-content button:hover{
+    cursor: pointer;
+}
+
+.main-tagline{
+    margin: 97px 231px 75px 231px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-tagline h2{
+    color: #181800;
+    font-family: "Brown LL";
+    font-size: 37px;
+    letter-spacing: -0.74px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.main-tagline p {
+    color: #181800;
+    font-family: "Brown LL";
+    font-size: 24px;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 0 114px;
+}
+
+.main-products{
+    margin: 0 268px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.m-products-card-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17px;
+}
+
+.m-products-name {
+    color: #181800;
+    font-family: "Brown LL";
+    font-size: 22px;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.m-products-price{
+    color: #181800;
+    font-family: "Brown LL";
+    font-size: 20px;
+    letter-spacing: 0;
+    margin-top: 6px;
+    text-align: center;
+}
+
+.m-products-card{
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.m-products-card img{
+    width: 396px;
+    height: 396px;
+}
+
+.m-products-card-rating img{
+    height: 14px;
+    width: 89px;
+    margin-top: 6px;
+}
+
+.m-products-card button{
+    height: 55px;
+    width: 169px;
+    color: #FFFFFF;
+    font-family: "Brown LL";
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid #181800;
+    background-color: #181800;
+    margin-top: 29px;
+}
+
+.main-testimonials{
+    margin: 83px 122px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: flex-start;
+    grid-column-gap: 82px;
+}
+
+.m-testimonial-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-testimonial-card h4{
+    color: #181800;
+    font-family: "Brown LL";
+    font-size: 24px;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 23px 0;
+}
+
+.m-testimonial-card p{
+    color: #181800;
+    font-family: "Brown LL";
+    font-size: 16px;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.m-testimonial-quote{
+    width: 60px;
+    height: 60px;
+    opacity: 0.1;
+}
+
+.main-promotional-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 116px 87px 76px 87px;
+}
+
+.main-promotional-logo img{
+    width: 144px;
+    height: 144px;
+}
+
+#secondary-hero-banner{
+    height: 630px;
+    width: 100%;
+    background-color: #FFF6E2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-hero-banner-content{
+    height: 355px;
+    width: 505px;
+    margin-right: 145px;
+}
+
+.s-hero-banner-content h3{
+    color: #181800;
+    font-family: "Brown LL";
+    font-size: 36px;
+    letter-spacing: -0.5px;
+    margin-bottom: 23px;
+}
+
+.s-hero-banner-content p{
+    color: #181800;
+    font-family: "Brown LL";
+    font-size: 20px;
+    letter-spacing: 0;
+}
+
+.s-hero-banner-content button{
+    height: 55px;
+    width: 169px;
+    margin-top: 43px;
+    box-sizing: border-box;
+    border: 2px solid #181800;
+    background-color: #181800;
+    color: #FFFFFF;
+    font-family: "Brown LL";
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#secondary-hero-banner img {
+    height: 481px;
+    width: 397px;
+}
+
+#brand-ratings{
+    padding: 75px 87px;
+}
+
+.b-total-rating{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.b-total-rating img{
+    height: 33px;
+    width: 210px;
+}
+
+.b-total-rating span{
+    margin-top: 29px;
+    color: #181800;
+    font-family: "Brown LL";
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.b-rating-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 37px;
+    grid-row-gap: 49px;
+}
+
+.b-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #F3E6FF;
+    padding: 39px 32px;
+}
+
+.b-card img{
+    height: 17px;
+    width: 108px;
+}
+
+.b-card-review-counter{
+    margin-top: 20px;
+    color: #181800;
+    font-family: "Brown LL";
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.b-card-reviewer{
+    color: #181800;
+    font-family: "Brown LL";
+    font-size: 12px;
+    letter-spacing: 0;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+
+.b-card p{
+    color: #181800;
+    font-family: "Brown LL";
+    font-size: 17px;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+#tertiary-hero-banner{
+    height: 630px;
+    width: 100%;
+    background-color: #FFF6E2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#tertiary-hero-banner img{
+    height: 481px;
+    width: 397px;
+    margin-right: 145px;
+}
+
+#featured-footer-image{
+    height: 586px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#featured-footer-image img{
+    height: 436px;
+    width: 1193px;
+}
+
+footer{
+    height: 381px;
+    background-color: #181800;
+    padding: 97px 89px 30px 89px;
+}
+
+.footer-main-content{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: flex-start;
+}
+
+.footer-logo img{
+    height: 80px;
+    width: 80px;
+}
+
+.footer-site-map{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: flex-start;
+}
+
+.f-site-map-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 81px;
+}
+
+.f-site-map-links h5{
+  color: #FFFFFF;
+  font-family: "Brown LL";
+  font-size: 16px;
+  letter-spacing: 0.44px;
+  margin-bottom: 14px;
+}
+
+.f-site-map-links a {
+  color: #FFFFFF;
+  font-family: "Brown LL";
+  font-size: 18px;
+  letter-spacing: 0;
+  text-decoration: none;
+  margin-bottom: 14px;
+}
+
+.footer-subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footer-subscribe h5{
+    color: #FFFFFF;
+    font-family: "Brown LL";
+    font-size: 18px;
+    letter-spacing: 0;
+    margin-bottom: 15px;
+}
+
+.subscribe input{
+    box-sizing: border-box;
+    height: 48px;
+    width: 236px;
+    border: 2px solid #FFFFFF;
+    background-color: #181800;
+}
+
+.subscribe button{
+    box-sizing: border-box;
+    height: 48px;
+    width: 92px;
+    border: 2px solid #FFFFFF;
+    background-color: #FFFFFF;
+    color: #181800;
+    font-family: "Brown LL";
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin-left: -10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-banner-content {
+        padding: 0;
+        width: auto;
+    }
+
+    .h-content-sub-nav{
+        display: none;
+    }
+
+    .h-content-sub-basket{
+        display: none;
+    }
+    
+    .footer-main-content{
+        grid-template-columns: auto;
+    }
+
+    #featured-footer-image img{
+        height: 106px;
+        width: 293px;
+    }
+
+    .main-products{
+        margin:0;
+        grid-template-columns: auto;
+    }
+
+    .s-hero-banner-content{
+        width: auto;
+        margin-right: 0;
+        height: auto;
+    }
+    .b-rating-cards{
+        grid-template-columns: auto;
+        grid-gap: 0;
+    }
+
+    #secondary-hero-banner img{
+        width: 250px;
+        height: 300px;
+    }
+
+    .main-promotional-logo{
+        flex-wrap:wrap
+    }
+
+    .main-testimonials{
+        grid-template-columns: auto;
+    }
+    #tertiary-hero-banner img{
+        width: 250px;
+        height: 300px;
+        margin-right: 0;
+    }
+    .footer-site-map{
+        flex-wrap: wrap;
+    }
+
+    footer{
+        height: auto;
+    }
+
+    .f-site-map-links{
+        margin: 10px;
+    }
+
+    #secondary-hero-banner{
+        flex-wrap: wrap;
+    }
+
+    #tertiary-hero-banner{
+        flex-wrap: wrap;
+    }
+
+    .m-products-card img{
+        width: 196px;
+        height: 196px;
+    }
+
+    .header-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-banner-text h1{
+        font-size: 40px;
+    }
+
+    #hero-banner-container{
+        padding: 20px;
+    }
+    .main-tagline{
+        margin:20px;
+    }
+
+    .main-tagline h2{
+        font-size: 30px;
+    }
+
+    .main-tagline p{
+        font-size: 17px;
+        margin:0 30px;
+    }
+}
